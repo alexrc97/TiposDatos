@@ -1,0 +1,52 @@
+package dam.iesvdc.ejercicios;
+
+/**
+* Esta clase define objetos que contienen
+* un atributo denominado n ́umero
+* y posee un m ́etodo para devolver
+* el valor doble
+* @author: Manuel Molino
+* @version: 1.0
+*/
+public class Ej11TiposDeDatos{
+private int numero; //propiedad de los objetos.
+/**
+* Constructor: es un m ́etodo que tiene
+* el mismo nombre que la clase y se
+* usa para crear objetos
+* @param n par ́ametro para inicializar el objeto
+* se usa para inicializar los objetos
+* de tipo n ́umero
+*/
+public Ej11TiposDeDatos(int n){
+this.numero=n;
+}
+/**
+* m ́etodo que devuelve el valor doble
+* @return el valor doble del atributo
+* numero de dicho objeto.
+*/
+public int doble(){
+return this.numero*2;
+}
+public int triple(){
+return this.numero*3;
+}
+public int mitad(){
+return this.numero/2;
+}
+}
+//clase para comprobar el funcionamiento de la
+//clase anterior
+//class TestNumeros {
+//public static void main(String[] arg){
+////Creo uno objeto de tipo N ́umero
+//Ej11TiposDeDatos n1 = new Ej11TiposDeDatos(4);
+////Imprimo su valor doble
+//System.out.println("Valor doble: "+n1.doble());
+////Imprimo su valor doble
+//System.out.println("Valor triple: "+n1.triple());
+////Imprimo su valor doble
+//System.out.println("Valor mitad: "+n1.mitad());
+//}
+//}
